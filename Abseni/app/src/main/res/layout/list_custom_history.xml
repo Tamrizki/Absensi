@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_checkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Check In"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08.00 PM"
+                android:textSize="12dp"
+                android:id="@+id/waktu_submit"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_waktu_checkin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="1 January 2019 | 08.00 WIB"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_aktivitas"
+        android:text="Activities"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_isi_aktivitas"
+        android:text="Layouting App"
+        android:textSize="16dp"
+        android:layout_marginBottom="10dp"/>
+    <View
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:background="@color/ep_biru"
+        android:layout_height="0.8dp"/>
+
+</LinearLayout>

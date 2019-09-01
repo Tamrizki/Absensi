@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My</string>
+    <string name="title_home">Home</string>
+    <string name="title_izin">Perizinan</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--presensi-->
+    <string-array name="type_presensi">
+        <item>Daily Attendance</item>
+        <item>Nabung Hari</item>
+        <item>Ganti Hari</item>
+        <item>Lemburan</item>
+        <item>Tambah Jam</item>
+    </string-array>
+
+    <string-array name="gantiHari">
+        <item>Ganti Hari</item>
+    </string-array>
+
+    <!--Persen-->
+    <string-array name="fill">
+        <item>-%-</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+
+    <!--Jenis Perizinan-->
+    <string-array name="type_izin">
+        <item>- Jenis Izin -</item>
+        <item>Tidak Potong gaji</item>
+        <item>Ganti Hari</item>
+        <item>Potong Gaji</item>
+    </string-array>
+
+    <!--Lama Cuti-->
+    <string-array name="posisi">
+        <item> - Jabatan -</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

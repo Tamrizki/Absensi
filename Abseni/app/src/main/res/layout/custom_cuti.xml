@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengajuan Cuti"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:background="@color/ep_biru_muda"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jangka waktu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_tanggalCuti"
+            android:text="Tanggal sampai tanggal"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alasan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_alasanCuti"
+            android:text="Karena ........................"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sedang diproses"
+            android:padding="5dp"
+            android:textColor="#fff"
+            android:layout_gravity="right"
+            android:background="@color/ep_hijau"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

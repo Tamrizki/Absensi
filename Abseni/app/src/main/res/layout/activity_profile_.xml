@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar_custom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <ScrollView
+        android:layout_below="@id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Profile.Profile_Activity">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#dddddd"></FrameLayout>
+
+            <ImageView
+                android:id="@+id/img_logo_profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/sp_profile_1"
+                android:layout_below="@+id/img_logo_profile"/>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cd_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sp_profile_1"
+                android:layout_margin="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#e2ffff"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/logo"
+                        android:alpha="0.07"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="-30dp"/>
+
+                    <TextView
+                        android:id="@+id/n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Lengkap"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/p_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/n"
+                        android:text="Tambah Rizki Muhammad"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p_name"
+                        android:layout_marginTop="10dp"
+                        android:text="Alamat asal"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/p_alamatAsal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/a"
+                        android:text="Purbalingga"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/a1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p_alamatAsal"
+                        android:layout_marginTop="10dp"
+                        android:text="Alamat saat ini"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/p_alamatSaatIni"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/a1"
+                        android:text="Yogyakarta"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p_alamatSaatIni"
+                        android:layout_marginTop="10dp"
+                        android:text="Email"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/p_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/e"
+                        android:text="Rizkitam77@gmail.com"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p_email"
+                        android:layout_marginTop="10dp"
+                        android:text="No Telephone"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/p_telephone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/t"
+                        android:text="08123456789"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/p"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p_telephone"
+                        android:layout_marginTop="10dp"
+                        android:text="Projek saat ini"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/p_projek"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p"
+                        android:text="Projek Team"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p_projek"
+                        android:layout_marginTop="10dp"
+                        android:text="Wali"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/p_wali"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/w"
+                        android:text="mr. anu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/p_wali"
+                        android:layout_marginTop="10dp"
+                        android:text="Telephone Wali"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/p_telephoneWali"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tw"
+                        android:text="08987654321"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

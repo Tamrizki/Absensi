@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".Notif.NotifFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buttom_background"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/title_izin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radius_background"
+        android:elevation="2dp"
+        android:padding="20dp"
+        android:text="Notifikasi"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/title_izin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recy_Notiv"
+        android:background="@drawable/radius_background"
+        android:elevation="2dp"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

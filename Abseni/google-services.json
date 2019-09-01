@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012504825008",
+    "firebase_url": "https://erpo-absen-125f4.firebaseio.com",
+    "project_id": "erpo-absen-125f4",
+    "storage_bucket": "erpo-absen-125f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012504825008:android:9c8423732320097d",
+        "android_client_info": {
+          "package_name": "com.example.my"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012504825008-g80d9u3tkp55fgepk38u5b54dkgghb2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.my",
+            "certificate_hash": "e1f41552eee5d6b04bbd0b5d2895d085e9a92685"
+          }
+        },
+        {
+          "client_id": "1012504825008-korigjotfj8je31isvb6mmac3hnhr06t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjSEAE7cQC6fnzOC7C6t846OR5u1AqR1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012504825008-korigjotfj8je31isvb6mmac3hnhr06t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

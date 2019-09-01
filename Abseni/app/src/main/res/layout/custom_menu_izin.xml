@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Izin.IzinFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cd_izin"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jdl_izin"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:layout_alignParentEnd="true"/>
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardSP"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/type_izin"
+                    android:id="@+id/spinner_typeIzin"
+                    android:textAlignment="center"
+                    android:padding="5dp">
+                </Spinner>
+            </android.support.v7.widget.CardView>
+            <Button
+                android:id="@+id/btn_tanggal_izin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="   Pilih tanggal "
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_orange"
+                android:layout_below="@+id/cardSP"
+                android:drawableStart="@drawable/ic_date"/>
+
+            <EditText
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:id="@+id/txt_alasanIzin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tulis alasan ..."
+                android:textSize="14dp"
+                android:maxLines="2"
+                android:layout_below="@+id/btn_tanggal_izin"
+                android:background="@drawable/bg_form"/>
+
+
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_upload_izin"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_below="@+id/txt_alasanIzin"-->
+                <!--android:text="  Upload Bukti"-->
+                <!--android:drawableLeft="@drawable/ic_image"-->
+                <!--android:textSize="12dp"-->
+                <!--android:background="@null"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_marginEnd="20dp"-->
+                <!--android:layout_marginBottom="20dp"/>-->
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>
